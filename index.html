@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css">
+    <title>Ducat-Home</title>
+  </head>
+  <body>
+    <div id="ducat-wrapper">
+      <nav>
+        <div class="navbar">
+          <div class="nav_menu" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></div>
+          <img
+            src="https://www.ducatindia.com/static/images/logo.png"
+            class="ducat-logo"
+          />
+          <div class="nav_links">
+            <a class="nav_a" href="https://www.ducatindia.com/">Home</a>
+          <a class="nav_a" href="https://www.ducatindia.com/about-us">About us</a>
+          <a class="nav_a" href="#" onclick="toggle()">Courses&nbsp;<i class="fa-solid fa-caret-down"></i></a>
+          <div class="all-courses">
+            <ul class="all-courses_ul">
+              <li class="all-courses_li"><a href="" class="all-courses_a">New Courses</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Java</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">.NET</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Python</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Software Testing</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Web Designing - Full Stack Development</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Programming Languages</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Cloud Computing</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">ServiceNow</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Salesforce</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Mobile Application Development</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">CAD Training</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Network & Security</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Digital Marketing</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">MIS - Advanced Excel - BI Tools</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Multimedia Animation - Graphics</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">ERP</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Industrial Training</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Microsoft Dynamic</li></a>
+              <li class="all-courses_li"><a href="" class="all-courses_a">Other</li></a>
+            </ul>
+          </div>
+          <a class="nav_a" href="https:/www.ducatindia.com/online-registration"
+            >Online Registration</a
+          >
+          <a class="nav_a" href="https://www.ducatindia.com/certificate">Certificate</a>
+          <a class="nav_a" href="https://www.ducatindia.com/corporate-training"
+            >Corporate Training</a
+          >
+          <a class="nav_a" href="https://www.ducatindia.com/placement">Placements</a>
+          <a class="nav_a" href="https://www.ducatindia.com/blog">Blog</a>
+          <button class="nav_btn">Contact Us</button>
+          </div>
+          <button class="nav_prog_btn">Explore Programs</button>
+        </div>
+      </nav>
+      <div class="contact_fa">
+        <div>
+        <a href=""><i class="fa-solid fa-phone"></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <a href=""><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div id="slider">
+        <div class="slider_slide">
+          <div class="slider_container">
+            <div class="slider_lb">
+              <h1 class="slider_h1">Unlock your potential with us, and watch your career dreams come to life</h1>
+            </div>
+            <div class="slider_rb">
+              <img src="https://www.ducatindia.com/_next/image?url=%2Fstatic%2Fbanner%2Fpic4.png&w=384&q=75" alt="slider-img">
+            </div>
+          </div>
+          <!-- <div class="slider_container">
+            <div class="slider_lb">
+              <h1 class="slider_h1">Take the first step towards a successful career with our support and expertise</h1>
+            </div>
+            <div class="slider_rb">
+              <img src="https://ducatindia.com/_next/image?url=%2Fstatic%2Fbanner%2Fpic5.png&w=384&q=75" alt="slider-img">
+            </div>
+          </div>
+          <div class="slider_container">
+            <div class="slider_lb">
+              <h1 class="slider_h1">Learn from the future: Explore our  AI-powered courses</h1>
+            </div>
+            <div class="slider_rb">
+              <img src="https://ducatindia.com/_next/image?url=%2Fstatic%2Fbanner%2Fpic1.png&w=384&q=75" alt="slider-img">
+            </div>
+          </div>
+          <div class="slider_container">
+            <div class="slider_lb">
+              <h1 class="slider_h1">Our goal is to empower your career ambitions</h1>
+            </div>
+            <div class="slider_rb">
+              <img src="https://ducatindia.com/_next/image?url=%2Fstatic%2Fbanner%2Fpic2.png&w=384&q=75" alt="slider-img">
+            </div>
+          </div>
+          <div class="slider_container">
+            <div class="slider_lb">
+              <h1 class="slider_h1">Your success is our mission, and we are dedicated to helping you reach your goals</h1>
+            </div>
+            <div class="slider_rb">
+              <img src="https://ducatindia.com/_next/image?url=%2Fstatic%2Fbanner%2Fpic3.png&w=384&q=75" alt="slider-img">
+            </div>
+          </div> -->
+          <div id="search-bar">
+            <div class="search-bar_container">
+              <input type="search" placeholder="Search Your Favourite Course Today." class="search-bar_input">
+              <button class="search-bar_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </div>
+        </div> <!-- slider-slide -->
+      </div>
+     
+      <section id="enroll">
+        <div class="enroll_about">
+          <div class="box box1"><span><i class="fa-solid fa-chalkboard-user"></i></span><span>Learn The <br> Essential Skills</span></div>
+          <div class="box box2"><span><i class="fa-solid fa-certificate"></i></span><span><span>Earn Certificates <br>And Degrees</span></div>
+          <div class="box box3"><span><i class="fa-solid fa-graduation-cap"></i></span><span>Get Ready for The <br>Next Career</span></div>
+          <div class="box box4"><span><i class="fa-solid fa-award"></i></span><span>Master at <br>Different Areas</span></div>
+        </div>
+        <div class="enroll_here">
+            <div class="box box1"><input class="enroll_input" type="text" placeholder="Full Name"></div>
+            <div class="box box2"><input class="enroll_input" type="text" placeholder="Email Address"></div>
+            <div class="box box3"><input class="enroll_input" type="number" placeholder="Phone Number" min="0" max="0"></div>
+            <div class="box box4">
+              <select placeholder="Slect" class="course enroll_input">
+                <option for="" selected>Select a Course</option>
+                <option for=""></option>
+            </select>
+            </div>
+            <div class="box box5">
+              <select class="branch enroll_input" >
+                <option for="" selected>Select a Branch</option>
+                <option for=""></option>
+              </select>
+            </div><!--box box5-->
+            <div class="box box6">
+              <button class="enroll-here_btn enroll_input">Submit</button>
+            </div>
+        </div><!--enroll-here-->
+      </section>
+      <section class="learn-work">
+        <h1>Our Learners Work At</h1>
+        <p>Ducat learners work at some of the leading and innovative organizations of today, solving core business problems.</p>
+      <div id="org-slider">
+        <button><i class="fa-solid fa-angle-left"></i></button>
+        <div class="arrow-btns">
+        <div class="org_slide">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892216598IBM.png&w=256&q=75" class="org_img" alt="IBM-LOGO">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892246870Steria.png&w=256&q=75" class="org_img" alt="steria-logo">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892273832TATA%20Consultancy%20Services.png&w=256&q=75" class="org_img" alt="tata-consiltancy-service">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892297227Jubilant.png&w=256&q=75" class="org_img" alt="Jubilant-Life-Services">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1707544627023Infosys.png&w=256&q=75" class="org_img" alt="Infosys">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676891813273Ibilt.png&w=256&q=75" class="org_img" alt="iBill-Logo">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676891842962Accenture.png&w=256&q=75" class="org_img" alt="accenture">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1707544581272Aditya%20Birla%20Group.png&w=256&q=75" class="org_img" alt="adity-birla-group">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676891928669Algoscale.png&w=256&q=75" class="org_img" alt="algoscale">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676891956504BAJAJ.png&w=256&q=75" class="org_img" alt="Bajaj Allianz">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892103444Birlasoft.png&w=256&q=75" class="org_img" alt="BirlaSoft">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892139481CSC.png&w=256&q=75" class="org_img" alt="CSC-LOGO">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892165559Cognizant.png&w=256&q=75" class="org_img" alt="Cognizant">
+          <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892192426Hewitt.png&w=256&q=75" class="org_img" alt="Hewitt">
+        </div>
+      </div>
+        <button><i class="fa-solid fa-angle-right"></i></button>
+      </div>   
+  </section>  
+      <section class="" id="studCards">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+      <section id="ducat-programs">
+        <div class="program_head">
+          <h1 class="program_h1">Explore Top Programs</h1>
+          <button class="program_view-btn" onclick="showAllCourses()"> View All</button>
+        </div>
+        <div class="program-list">
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1707558426583png-transparent-mis-hd-logo.png&w=96&q=75"
+              alt="MIS"
+            />
+            <div>MIS</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1710919320510Dot%20net%20Course.png&w=96&q=75"
+              alt=".NET"
+            />
+            <div>.NET</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1707549077103Digital%20Marketing.png&w=96&q=75"
+              alt=""
+            />
+            <div>DIGITAL MARKETING</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1709033901773Java.png&w=96&q=75"
+              alt=""
+            />
+            <div>JAVA EXPERT</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1709793798546Dot%20Net.png&w=96&q=75"
+              alt=""
+            />
+            <div>.NET FULL STACK</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1709034950267WEB%20DESIGNING1.png&w=96&q=75"
+              alt=""
+            />
+            <div>WEB DESIGNING</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1707559231334UI%20%26%20UX.png&w=96&q=75"
+              alt=""
+            />
+            <div>UI & UX</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1709034580514MEAN%20STACK.png&w=96&q=75"
+              alt="MERN STACK"
+            />
+            <div>MERN STACK</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1707559446250Data%20Analytics%20Using%20Python.png&w=96&q=75"
+              alt=""
+            />
+            <div>DIGITAL ANALATICS USING PYTHON</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1709034631076MERN%20STACK.png&w=96&q=75"
+              alt="MERN STACK"
+            />
+            <div>MERN STACK</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1707559465273Data%20Science%20Training%20in%20Delhi.png&w=96&q=75"
+              alt="DATA SCIENCE PROFESSIONAL TRAINING"
+            />
+            <div>DATA SCIENCE PROFESSIONAL TRAINING</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1709100672988Ethical%20Hacking.png&w=96&q=75"
+              alt="ETHICAL HACKING v12"
+            />
+            <div>ETHICAL HACKING v12</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1707561125125Cyber%20Security.png&w=96&q=75"
+              alt="CYBER SECURITY"
+            />
+            <div>CYBER SECURITY</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1707559736428hadoop-logo-D36814CB84-seeklogo.com.png&w=96&q=75"
+              alt="BIG DATA HADOOP TRAINING"
+            />
+            <div>BIG DATA HADOOP TRAINING</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1709096011626Linux.jpg&w=96&q=75"
+              alt="LINUX Training"
+            />
+            <div>LINUX Training</div>
+          </div>
+          <div class="progList_item">
+            <img
+              class="progList_img"
+              src="https://www.ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fcourse%2F1709621420973Business%20Analytics.png&w=96&q=75"
+              alt="BUSINESS ANALYTICS"
+            />
+            <div>BUSINESS ANALYTICS</div>
+          </div>
+        </div>
+      </section>
+      <section class="placement-slider">
+        <h1>Our Placement Partners</h1>
+        <div id="org-slider">
+          <button><i class="fa-solid fa-angle-left"></i></button>
+          <div class="arrow-btns">
+          <div class="org_slide">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892216598IBM.png&w=256&q=75" class="org_img" alt="IBM-LOGO">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892246870Steria.png&w=256&q=75" class="org_img" alt="steria-logo">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892273832TATA%20Consultancy%20Services.png&w=256&q=75" class="org_img" alt="tata-consiltancy-service">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892297227Jubilant.png&w=256&q=75" class="org_img" alt="Jubilant-Life-Services">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1707544627023Infosys.png&w=256&q=75" class="org_img" alt="Infosys">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676891813273Ibilt.png&w=256&q=75" class="org_img" alt="iBill-Logo">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676891842962Accenture.png&w=256&q=75" class="org_img" alt="accenture">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1707544581272Aditya%20Birla%20Group.png&w=256&q=75" class="org_img" alt="adity-birla-group">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676891928669Algoscale.png&w=256&q=75" class="org_img" alt="algoscale">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676891956504BAJAJ.png&w=256&q=75" class="org_img" alt="Bajaj Allianz">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892103444Birlasoft.png&w=256&q=75" class="org_img" alt="BirlaSoft">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892139481CSC.png&w=256&q=75" class="org_img" alt="CSC-LOGO">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892165559Cognizant.png&w=256&q=75" class="org_img" alt="Cognizant">
+            <img src="https://ducatindia.com/_next/image?url=https%3A%2F%2Fadmin.ducatindia.com%2Fclients%2F1676892192426Hewitt.png&w=256&q=75" class="org_img" alt="Hewitt">
+          </div>
+        </div>
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="footer">
+          <div class="footer_box">
+            <h3 class="footer_h3">Folow US!</h3>
+            <ul class="footer_ul">
+              <li><i class="fa-brands fa-facebook-f"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+              <li><i class="fa-brands fa-youtube"></i></li>
+              <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </ul>
+          </div>
+          <div class="footer_box">
+            <h3 class="footer_h3">Our Popular Courses</h3>
+            <ul class="footer_ul">
+              <li><a href="" class="footer_a">Java FullStack</a></li>
+              <li><a href="" class="footer_a">Python Full Stack</a></li>
+              <li><a href="" class="footer_a">.Net Full Stack</a></li>
+              <li><a href="" class="footer_a">Mern Stack</a></li>
+              <li><a href="" class="footer_a">Mean Stack</a></li>
+              <li><a href="" class="footer_a">PHP Full Stack</a></li>
+              <li><a href="" class="footer_a">UI/UX Course</a></li>
+              <li><a href="" class="footer_a">Data Analytics Using <br>Python</a></li>
+              <li><a href="" class="footer_a">Cyber Security</a></li>
+              <li><a href="" class="footer_a">Ethical Hacking</a></li>
+              <li><a href="" class="footer_a">Aws</a></li>
+              <li><a href="" class="footer_a">Cloud Computing</a></li>
+            </ul>
+          </div>
+          <div class="footer_box">
+            <h3 class="footer_h3">Other Top Courses</h3>
+            <ul class="footer_ul">
+              <li><a href="" class="footer_a">SAP Hana Fico</a></li>
+              <li><a href="" class="footer_a">Salesforce</a></li>
+              <li><a href="" class="footer_a">CCNA</a></li>
+              <li><a href="" class="footer_a">AutoCAD</a></li>
+              <li><a href="" class="footer_a">Graphic Designing</a></li>
+              <li><a href="" class="footer_a">Multimedia & Animation</a></li>
+              <li><a href="" class="footer_a">Manual + Selenium <br> Testing</a></li>
+              <li><a href="" class="footer_a">Full Stack QA</a></li>
+              <li><a href="" class="footer_a">React Native</a></li>
+              <li><a href="" class="footer_a">React</a></li>
+              <li><a href="" class="footer_a">Angular</a></li>
+              <li><a href="" class="footer_a">Devops</a></li>
+            </ul>
+          </div>
+          <div class="footer_box">
+            <h3 class="footer_h3">Policies</h3>
+            <ul class="footer_ul">
+              <li><a href="" class="footer_a">Privacy Policy</a></li>
+              <li><a href="" class="footer_a">Refund Policy</a></li>
+              <li><a href="" class="footer_a">Terms and Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer_p">copyright © 2024 Ducat India, All rights Reserved</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

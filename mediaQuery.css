@@ -1,0 +1,178 @@
+@media screen and (max-width: 1280px) {
+  .nav_a {
+    font-size: 16px;
+  }
+  .enroll_input {
+    width: 100%;
+  }
+  #search-bar {
+    top: 400px;
+    left: 75px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav_menu {
+    display: block;
+  }
+  .nav_links {
+    display: none;
+    min-width: 200px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    background-color: #dff1fb;
+    padding: 20px;
+    width: 100vw;
+    z-index: 5;
+    & > a {
+      width: 100%;
+      display: block;
+      color: #000;
+      font-size: 16px;
+      line-height: 2.5rem;
+      border-bottom: 1px solid lightgray;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .nav_btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .slider_h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .enroll_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    & > .box {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px auto;
+      & > span {
+        margin: 0 10px;
+        color: #fff;
+      }
+      & > span i {
+        color: #fff;
+        font-size: 35px;
+      }
+    }
+  }
+  .program-list {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    padding: 40px;
+  }
+#slider{
+  height: 400px;
+
+}
+  .slider_h1 {
+    font-size: 20px;
+  }
+  .slider_rb, .slider_lb{
+    padding: 0 50px;
+  }
+  .enroll_here {
+    flex-direction: column;
+    background-color: #dae4eb;
+    &>.box6 button{
+      width: 50%;
+    }
+  }
+  .enroll_input {
+    width: 350px;
+    margin: 10px auto;
+  }
+.enroll-here_btn {
+  width: 200px;
+  margin: auto;
+}
+  #search-bar {
+    padding: 5px;
+    top: 600px;
+    /* left: 0; */
+  }
+  #ducat-programs {
+    height: 475px;
+  }
+  .footer {
+    justify-content: start;
+    flex-direction: column;
+  }
+  .footer_box {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 465px) {
+  #ducat-wrapper {
+    margin: auto;
+  }
+  #search-bar {
+    max-width: 80vw;
+    position: static;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+.contact_fa {
+  min-width: 200px;
+  position: sticky;
+  top: 90%;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  &>div{
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+  .slider_slide{
+    width: 100vw;
+  }
+  .slider_container{
+    align-content: space-between;
+    flex-flow: column-reverse;
+    margin-bottom: 40px;
+  }
+  .search-bar_input {
+    font-size: 16px;
+  }
+  .program_head {
+    padding: 0 20px;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav_prog_btn {
+    display: block;
+    background-color: #14599e;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .enroll_input {
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+}
